@@ -3,7 +3,7 @@ import { getLocalStorageItem } from '../utils/localStorage';
 
 const apiClient = () => {
     const defaultOptions = {
-        baseURL: 'http://51.20.61.151:8000',
+        baseURL: 'http://localhost:8000',
         header: {
             Accept: 'application/json',
             'Content-Type': 'application/json',
